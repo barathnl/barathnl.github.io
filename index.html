@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Resume">
+    <meta name="author" content="Barath">
+    <link rel="icon" href="https://getbootstrap.com/docs/3.3/favicon.ico">
+
+    <title>Barath</title>
+	<link rel="icon" type="image/ico" href="./image/blogo.ico">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
+	<!-- Customized CSS -->
+	<link rel="stylesheet" href="css/resumeStyle.css">
+	<!-- fontawesome-->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  </head>
+
+  <body>
+
+
+    <div class="container-fluid">
+    <!-- Fixed navbar -->
+		<nav class="navbar navbar-default navbar-fixed-top ">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">
+				Barath
+			  </a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+			  <ul class="nav navbar-nav">				
+				<li><a href="#aboutme">About Me</a></li>
+				<li><a href="#resume">Resume</a></li>
+				<li><a href="#project">Project</a></li>
+				<li><a href="#contact">Contact Me</a></li>
+			  </ul>
+			</div><!--/.nav-collapse -->
+		  </div>
+		</nav>
+    </div>
+
+	<div id="main-content" class="container-fluid">
+		
+	<!--<section id="home" style="height:400px">
+      <div class="row parallax" style="height:100%;">
+        <div class="typerwriter_text col-sm-offset-3 col-sm-6 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6 col-xl-offset-3 col-xl-6">
+			<h2>Hi ! I'm <span class="intro-text"></span></h2>
+        </div>        
+      </div>
+    </section>-->
+	
+    <section id="aboutme" style="background:#FFFFFF;">
+      <div class="container">
+        <div class="row" style="height:inherit;">
+          <div class="page-header">
+              <h3 id="timeline"> <i class="far fa-user-circle fa-lg"></i> &nbsp;About Me</h3>
+          </div>
+		  <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4" style="height:inherit;">
+				<img  class="img-thumbnail rounded profile_img" src="./image/me1.jpg" width="100%">
+		  </div>
+          <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8" style="height:inherit;">
+				 <div class="typerwriter_text"><h3>Hi ! I'm <span class="intro-text"></span></h3></div>           
+                 <p><i class="far fa-hand-point-right"></i>&nbsp;&nbsp;<strong>4 years</strong> experience as a <strong>Software engineer</strong> developing web application,mobile application,building reporting 
+					frameworks and working with database system</p>
+                 <p><i class="far fa-hand-point-right"></i>&nbsp;&nbsp;Worked at iNautix Technologies India Private Limited [A subsidiary of Bank of New York Mellon] – Ranked No.16 
+					Best IT company to work in India , TOI Survey</p>
+				 <p><i class="far fa-hand-point-right"></i>&nbsp;&nbsp;Worked as <strong>Software developer</strong> at University of Missouri – Kansas City developing web application</p>
+				 <p><i class="far fa-hand-point-right"></i>&nbsp;&nbsp;Work experience in <strong>Java</strong> programming languages and <strong>SQL</strong> query</p>
+                 <p><i class="far fa-hand-point-right"></i>&nbsp;&nbsp;Proficient in <strong>HTML 5, CSS3, Bootstrap, JavaScript, JQuery, Angularjs</strong> – Web technologies</p>
+                 <p><i class="far fa-hand-point-right"></i>&nbsp;&nbsp;Experience working on <strong> Restful APIs </strong>and <strong>Android</strong> mobile application <p>                 
+                 <p><i class="far fa-hand-point-right"></i>&nbsp;&nbsp;Good knowledge of concepts like Data Structures, DBMS, Networks and Operating systems</p>
+                 <p><i class="far fa-hand-point-right"></i>&nbsp;&nbsp;Experience using <strong>Linux</strong> command</p>
+				 <p><i class="far fa-hand-point-right"></i>&nbsp;&nbsp;Strong knowledge in <strong>Machine Learning Algorithm</strong></p>
+                 <p><i class="far fa-hand-point-right"></i>&nbsp;&nbsp;Hands on experience on <strong>Big Data</strong> tools like Apache Hadoop and SparkSQL</p>
+				 
+				 <a class="btn" href="./doc/Barath_Naravula_Loganathan.pdf" role="button" target="_blank"><i class="fas fa-download"></i>&nbsp;&nbsp;Download My Resume</a>
+            
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="resume" style="background:#F5F5F5;">
+      <div class="container">
+        <div class="row">		  
+          <!--Work Experience - Start-->
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  <div class="page-header">
+                      <h3><i class="fas fa-briefcase"></i> &nbsp;Work Experience / Intern</h3>
+                  </div>
+				  <div>
+					<blockquote class="default">						
+						<h4>I step into office every day expecting two thing - challenging work & learning something new</h4> 
+						<p> - What I learnt from work experience</p>					  
+					</blockquote>
+				  </div>
+                  <div class="timeline-group">
+                    Work
+                  </div>
+                  <ul class="timeline">
+                      <li>
+                        <div class="timeline-badge"><img src="image/umkc.png" class="img-thumbnail" width="100%" height="10%" alt="UMKC Logo"></div>
+                        <div class="timeline-panel">
+                          <div class="timeline-heading">
+                            <h4 class="timeline-title">Software Developer</h4>
+                            <hr>
+                            <p><small class="text-muted"><i class="fa fa-building"></i> University of Missouri – Kansas City</small></p>
+                            <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> December 2016 - Present</small></p>
+							<hr>
+                          </div>
+                          <div class="timeline-body text-muted text-justify">
+						  <small>
+                            <p><i class="fas fa-angle-double-right"></i>&nbsp;Designed and developed multi-view dashboard for Canvas request system using C# MVC model where one view allows 
+									admin user to view various type of request ticket and its status .Other view allows user to create  various request 
+									ticket such as copying course content ,combine multiple course contents and more. </p>
+							<p><i class="fas fa-angle-double-right"></i>&nbsp;Designed and developed various University of Missouri – Kansas City android application and application such as UMKC study poll app, Attendance app.</p>
+							<p><i class="fas fa-angle-double-right"></i>&nbsp;Created and deployed reports for various application in SQL Server Reporting Service (SSRS) using SQL Server Data Tools.</p>							
+						  </small>
+						  </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="timeline-badge"><img src="image/inautix.png" class="img-thumbnail" width="100%" height="10%" alt="iNautix Logo"></div>
+                        <div class="timeline-panel">
+                          <div class="timeline-heading">
+                            <h4 class="timeline-title">Software Engineer</h4>
+                            <hr>
+                            <p><small class="text-muted"><i class="fa fa-building"></i> iNautix Technologies India Private Limited</small></p>
+                            <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> June 2014 – July 2016 </small></p>
+							<hr>
+                          </div>
+                          <div class="timeline-body text-muted text-justify">
+						  <small>
+                            <p><i class="fas fa-angle-double-right"></i>&nbsp;Designed 150+ JasperReport Design template (. jrxml) file. Integrated those design templates with development of efficient 
+									multi-threaded job scheduling reporting framework module for the project using Java, Spring, Quartz scheduler which extracts financial data from production 
+									database by writing custom SQL queries in design phase of report template.</p>
+							<p><i class="fas fa-angle-double-right"></i>&nbsp;Performed root cause analysis and problem management for existing reporting framework module to fix and eliminate technical bugs</p>
+							<p><i class="fas fa-angle-double-right"></i>&nbsp;Participated in Agile project management for code development, release management and code deployment</p>
+                          </small>
+						  </div>
+                        </div>
+                      </li>
+                  </ul>
+                  <div class="timeline-group">
+                    Intern
+                  </div>
+                  <ul class="timeline">
+                      <li>
+                        <div class="timeline-badge"><img src="image/inautix.png" class="img-thumbnail" width="100%" height="10%" alt="iNautix Logo"></div>
+                        <div class="timeline-panel">
+                          <div class="timeline-heading">
+                            <h4 class="timeline-title">Software Engineer Intern</h4>
+                            <hr>
+                            <p><small class="text-muted"><i class="fa fa-building"></i> iNautix Technologies India Private Limited</small></p>
+                            <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> January 2014 – April 2014 </small></p>
+							<hr>
+                          </div>
+                          <div class="timeline-body text-muted text-justify">
+						  <small>
+                            <p><i class="fas fa-angle-double-right"></i>&nbsp;Created a Dynamic Dashboard for Custodian bank which populates various buckets like Available, Hold and Reserve finances by pulling real-time from production database</p>
+                            <p><i class="fas fa-angle-double-right"></i>&nbsp;Worked on a project titled “Asset Servicing System” which is an Asset Management application for Bank of New York Mellon</p>
+                          </small>
+						  </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="timeline-badge"><img src="image/HCL.png" class="img-thumbnail" width="100%" height="10%" alt="iNautix Logo"></div>
+                        <div class="timeline-panel">
+                          <div class="timeline-heading">
+                            <h4 class="timeline-title">Software Engineer Intern</h4>
+                            <hr>
+                            <p><small class="text-muted"><i class="fa fa-building"></i> HCL Technology Limited</small></p>
+                            <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> June 2012 – July 2012</small></p>
+							<hr>
+                          </div>
+                          <div class="timeline-body text-muted text-justify">
+						  <small>
+                            <p><i class="fas fa-angle-double-right"></i>&nbsp;Summer Industrial training at HCL Technology Limited, where I learnt about the various types of computer hardware component, computer networking written in Java networking program, system administration and various operating system platforms</p>
+                          </small>
+						  </div>
+                        </div>
+                      </li>
+                  </ul>
+          </div>
+          <!--Work Experience - End-->
+          <!--section 2 - Start-->
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="page-header header-font-color">
+                    <h3><i class="fas fa-graduation-cap"></i> &nbsp;Education</h3>
+                </div>
+				<div>
+					<blockquote class="default">						
+						<h4>Education maybe take several forms but never leaves me till my end</h4> 
+						<p> - What I learnt from education</p>					  
+					</blockquote>
+				</div>
+                <div class="row box">
+                  <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                    <img src="image/umkc.png" class="img-thumbnail" width="100%" height="100%" alt="UMKC Logo">
+                  </div>
+                  <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10 col-xl-10">
+                    <h4 class="timeline-title">Master of Science in Computer Science</h4>
+                    <hr>
+                    <p><small class="text-muted"><i class="fa fa-university"></i> University of Missouri – Kansas City</small></p>
+                    <p><small class="text-muted"><i class="fa fa-graduation-cap"></i> August 2016 - May 2018</small></p>
+                    <p><small class="text-muted"><i class="fas fa-chart-line"></i> GPA : 3.7 / 4</small></p>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="row box">
+                  <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                    <img src="image/annauniv.jpg" class="img-thumbnail" width="100%" height="100%" alt="Anna University Logo">
+                  </div>
+                  <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10 col-xl-10">
+                    <h4 class="timeline-title">Bachelor of Engineering in Computer Science</h4>
+                    <hr>
+                    <p><small class="text-muted"><i class="fa fa-university"></i> Anna University, Chennai</small></p>
+                    <p><small class="text-muted"><i class="fa fa-graduation-cap"></i> August 2010 - May 2014</small></p>
+                    <p><small class="text-muted"><i class="fas fa-chart-line"></i> GPA : 4 / 4</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="page-header header-font-color">
+                    <h3><i class="fas fa-code"></i> &nbsp;Skills</h3>
+                </div>
+				<div>
+					<blockquote class="default">						
+						<h4>Never its too late to learn new skill-set</h4> 
+						<p> - What I learnt</p>					  
+					</blockquote>
+				</div>				
+                <div>
+					<div class="progress">
+                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"><i class="fa fa-coffee" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Java</div>
+                   </div>
+                   <div class="progress">
+                        <div class="progress-bar progress-bar-success  progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><i class="fa fa-database" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;SQL</div>
+                   </div>                   
+                   <div class="progress">
+                        <div class="progress-bar progress-bar-info  progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"><i class="fab fa-android" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Android</div>
+                   </div>
+                  <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"><i class="fab fa-html5" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;HTML 5 </div>
+                   </div>
+                   <div class="progress">
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><i class="fab fa-css3-alt" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;CSS 3</div>
+                   </div>
+                   <div class="progress">
+						<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><i class="fab fa-js" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Jquery</div>
+                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"><i class="fa fa-code" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Anjular JS</div>
+                   </div>
+                   
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="page-header header-font-color">
+                    <h3><i class="fas fa-certificate"></i> &nbsp;Cetificate / <i class="fas fa-trophy"></i> &nbsp;Awards</h3>
+                </div>
+				<div class="row box">                     
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                       <p><strong>The Hong Kong University of Science and Technology</strong>: HTML, CSS and JavaScript Certified through Coursera</p>
+                     </div>
+                 </div>
+
+                 <div class="row box">                     
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                       <p><strong>IBM DB2</strong>: IBM DB2 Academic Associate</p>
+                     </div>
+                 </div>
+
+                 <div class="row box">                     
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                       <p><strong>Cambridge ESOL (BEC)</strong>: International Business English Certification</p>
+                     </div>
+                 </div>
+				 
+				 <div class="row box">                     
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                       <p>Awarded <strong>Dean International Scholar Award (DISA)</strong> from University of Missouri – Kansas City for good academic record which is equivalent to $4,000 per semseter</p>
+                     </div>
+                 </div>
+				 
+				 <div class="row box">                     
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                       <p>Received <strong>“Drives and Delivers Excellence Award”</strong> from iNautix Technologies India Pvt Ltd for work in Project “Broker Dealer Clearance System” for developing robust 
+					   Financial Reporting framework and awarded <strong>“Star Performer and Developer”</strong> in December 2015</p>
+                     </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <!--section 2 - end-->
+        </div>
+      </div>
+    </section>
+
+    <section id="project" style="background:#FFFFFF;">
+      <div class="container">
+        <div class="row" style="height:inherit;">
+          <div class="page-header">
+              <h3 id="timeline" class="icon"><i class="fas fa-tasks"></i>&nbsp;Project</h3>
+          </div>
+		  
+		  <div class="row">
+			<a href="" data-toggle="modal" data-target="#icheckModal">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">			
+				<div class="row box">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-img">
+						<img src="./image/project/icheck_project.JPG"  width="100%" height="100%" alt="i-Check project image">	
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-title">i-Check Project Analysis</div>					
+				</div>
+			</div>
+			</a>
+			<a href="" data-toggle="modal" data-target="#parkingAppModal">			
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+				<div class="row box">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-img">
+						<img src="./image/project/Parking_App.png"  width="100%" height="100%" alt="Parking_app_project image">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-title">Parking App - Hackathon</div> 				 
+				</div>
+			</div>
+			</a>
+			
+			<a href="" data-toggle="modal" data-target="#secretShareAppModal">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+				<div class="row box">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-img">
+						<img src="./image/project/secure_app.jpg"  width="100%" height="100%" alt="SeceretSharing-App-project image">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-title">Seceret Sharing App - Hachathon</div> 				 
+				</div>
+			</div>
+		  </div>
+		  </a>
+		  
+
+		  <div class="row">
+		  
+			<a href="" data-toggle="modal" data-target="#twitterAnalysisModal">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+				<div class="row box">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-img">
+						<img src="./image/project/twitter_project.JPG"  width="100%" height="100%" alt="Twitter-Analaysis-project image">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-title">Twitter Tweet-feed Analysis project</div> 				 
+				</div>
+			</div>
+			</a>
+			
+			<a href="" data-toggle="modal" data-target="#virtualAssistantModal">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+				<div class="row box">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-img">
+						<img src="./image/project/virtual_assistant.jpg"  width="100%" height="100%" alt="Virtual_Assistant-project image">	
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-title">Virtual Teaching Assistant</div>					
+				</div>
+			</div>	
+			</a>	
+
+			<a href="" data-toggle="modal" data-target="#machineLearingModal">			
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+				<div class="row box">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-img">
+						<img src="./image/project/machine_learning.jpg"  width="100%" height="100%" alt="machine-learning-project image">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 card-title">Machine learning algorthim</div> 				 
+				</div>
+			</div>
+			</a>
+			
+		  </div> 
+
+		<!-- Modal -->
+		<div class="modal fade" id="icheckModal" tabindex="-1" role="dialog" aria-labelledby="icheckModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+				<h5 class="modal-title" id="exampleModalLabel">i-Check enterprise monitoring system</h5>				
+			  </div>
+			  <div class="modal-body modal-video">
+				<!--Carousel-->
+				<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel2" data-slide-to="1"></li>
+					  <li data-target="#myCarousel2" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+					  <div class="item active">
+						<img src="image/project/icheck_project.JPG" alt="icheck" style="width:100%;">
+						<div class="carousel-caption">
+						  <h3 style="color:#000000">Main Dashboard</h3>						  
+						</div>
+					  </div>
+					  <div class="item">
+						<img src="image/project/icheck_project_1.JPG" alt="icheck" style="width:100%;">
+						<div class="carousel-caption">
+						  <h3>DrillDown Module 1</h3>						 
+						</div>
+					  </div>					
+					  <div class="item">
+						<img src="image/project/icheck_project_2.JPG" alt="icheck" style="width:100%;">
+						<div class="carousel-caption">
+						  <h3>DrillDown Module 1</h3>						  
+						</div>
+					  </div>
+				  
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel2" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				</div>
+			 </div>
+			  <div class="modal-body text-justify">
+				<small class="text-muted">Developed an integrated enterprise monitoring application with interactive chart UI showing the various business data module related to technology, services, CPU performance, memory usage and resource allocation.Interactive chart UI is created with Dojo Chart and UI is created with HTML 5, CSS 3 , Twitter bootstrap working with JAVA servlet as middleware communicating with Oracle Database to pull metric data</small>
+			  </div>
+			  <div class="modal-footer text-muted">
+				<small><i class="fas fa-file-code"></i>&nbsp;&nbsp;JAVA, HTML5, CSS3, Javascript, SQL, Dojo Chart</small>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="modal fade" id="parkingAppModal" tabindex="-1" role="dialog" aria-labelledby="parkingAppModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+				<h5 class="modal-title" id="exampleModalLabel">Parking App - Android - Hackathon</h5>				
+			  </div>
+			  <div class="modal-body modal-video">
+				<iframe src="https://www.youtube.com/embed/N1nW5J04H3E" style="width:100%;height:300px;" frameborder="0" gesture="media" allow="encrypted-media"></iframe>
+			  </div>
+			  <div class="modal-body text-justify">
+				<small class="text-muted">Created a Car Parking android application using Ionic framework. It uses interactive visual map of parking floor
+				with clearly labelled parking slot number and parking type. App shows available parking slot, occupied parking
+				slot , booked parking slot in different color. Also booking confirmation and cancellation are notified to user by
+				Application and SMS. Parking recipt in QR code. All parking details are stored in Mlab via AJAX</small>
+			  </div>
+			  <div class="modal-footer text-muted">
+				<small><i class="fas fa-file-code"></i>&nbsp;&nbsp;Android - Ionic Framework, HTML5, CSS3, Angular JS, MLab, AJAX</small>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="modal fade" id="secretShareAppModal" tabindex="-1" role="dialog" aria-labelledby="secretShareAppModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+				<h5 class="modal-title" id="exampleModalLabel">Secret information sharing</h5>				
+			  </div>
+			  <div class="modal-body modal-video">
+				<iframe src="https://www.youtube.com/embed/f2p7HIsZhqM" style="width:100%;height:300px;" frameborder="0" gesture="media" allow="encrypted-media"></iframe>
+			  </div>
+			  <div class="modal-body text-justify">
+				<small class="text-muted">Specific Use case for secret information sharing application is to create a Presidential Nuclear Football Launch - Android app 
+				where admin(Mr.President) creates individual keys for all the ‘n’ trusted users(General, Security Advoisor) and the users will be provided with the choice of accepting or rejecting the launch of 
+				nuclear codes, when the users select their choices, admin will be reconstructing the key using Shamir’s Algorithm. Decision will be taken and nuclear missile graphic message will be shown 
+				in App, if the reconstructed key matches with the master key.</small>
+			  </div>
+			  <div class="modal-footer">
+				<small><i class="fas fa-file-code"></i>&nbsp;&nbsp;Android - Ionic Framework, HTML5, CSS3, Angular JS, MLab, AJAX</small>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="modal fade" id="twitterAnalysisModal" tabindex="-1" role="dialog" aria-labelledby="twitterAnalysisModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+				<h5 class="modal-title" id="exampleModalLabel">Twitter Tweet-feed Analysis Project</h5>				
+			  </div>
+			  <div class="modal-body modal-video">
+				<iframe src="https://www.youtube.com/embed/LdcKdM2Y3xA" style="width:100%;height:300px;" frameborder="0" gesture="media" allow="encrypted-media"></iframe>
+			  </div>
+			  <div class="modal-body text-justify">
+				<small class="text-muted">Created an application that collects twitter tweets in JSON format and stores the twitter tweet data into a file
+				system of Apache Hadoop’s HDFS. Ran Spark RDDs queries and Spark DataFrames queries in Apache Spark to
+				calculate top 5 trending hashtag,graphicaly representing origin location of that trending tweets in map, along
+				with tweeted text language count and user with maximum retweet of the trending hashtag</small>
+			  </div>
+			  <div class="modal-footer">
+				<small><i class="fas fa-file-code"></i>&nbsp;&nbsp;Python, Apache Spark, Apache Hadoop, HTML5, CSS3, Angular JS, MLab, AJAX</small>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="modal fade" id="virtualAssistantModal" tabindex="-1" role="dialog" aria-labelledby="virtualAssistantModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+				<h5 class="modal-title" id="exampleModalLabel">Virtual Teaching Assistant</h5>				
+			  </div>
+			  <div class="modal-body modal-video">
+				<iframe src="https://www.youtube.com/embed/hOoLn_v040o" style="width:100%;height:300px;" frameborder="0" gesture="media" allow="encrypted-media"></iframe>
+			  </div>
+			  <div class="modal-body text-justify">
+				<small class="text-muted">Created a virtual assistant to teach Environmental science. Assistant takes environmental science video and
+				detects keyframes and annotate it using OpenIMAJ: Intelligent Multimedia Analyser. Later these annotated
+				keyframe is run againt our trained model which is generated from 20,000 image dateset using Retrain
+				Inception Final Layer concept in Tensorflow</small>
+			  </div>
+			  <div class="modal-footer">
+				<small><i class="fas fa-file-code"></i>&nbsp;&nbsp;Tensorflow, Java, Heroku, OpenIMAJ</small>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="modal fade" id="machineLearingModal" tabindex="-1" role="dialog" aria-labelledby="machineLearingModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+				<h5 class="modal-title" id="exampleModalLabel">Machine learning algorthim</h5>				
+			  </div>
+			  <div class="modal-body modal-video">
+				<!--Carousel-->
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel" data-slide-to="1"></li>
+					  <li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+					  <div class="item active">
+						<img src="image/project/LDA.JPG" alt="lda model" style="width:100%;">
+						<div class="carousel-caption">
+						  <h3>LDA algorthim for iris dataset</h3>						  
+						</div>
+					  </div>
+					  <div class="item">
+						<img src="image/project/KNN.JPG" alt="knn model" style="width:100%;">
+						<div class="carousel-caption">
+						  <h3>KNN</h3>						 
+						</div>
+					  </div>				  
+				  	</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				</div>
+			  </div>
+			  <div class="modal-body text-justify">
+				<small class="text-muted">Written various machine learing algorithms such Regression, Classification and Clustering </small>
+			  </div>
+			  <div class="modal-footer">
+				<small><i class="fas fa-file-code"></i>&nbsp;&nbsp;Tensorflow, Python, Scipy, numpy, sklearn</small>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		  
+        </div>
+      </div>
+    </section>
+	
+	<section id="contact" style="background:#f5f5f5;">
+      <div class="container">
+        <div class="row" style="height:inherit;">
+          <div class="page-header">
+              <h3 id="timeline" class="icon"><i class="fas fa-address-card"></i>&nbsp;Contact Me</h3>
+          </div>
+		  
+		  <div class="row">
+			  <h4>
+				<a href="tel:5122031577">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center text-muted contact_padding">
+					<i class="fas fa-phone-square" style="font-size:2em;"></i>
+				</div> 
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center text-muted contact_padding">
+					 +1 (512) 203 1577
+				</div> 
+				</a>
+				<a href="mailto:barath.n.loganathan@gmail.com">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center text-muted contact_padding">
+					<i class="fas fa-envelope-square" style="font-size:2em;"></i>
+				</div> 
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center text-muted contact_padding">
+					 barath.n.loganathan@gmail.com
+				</div>
+				</a>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center text-muted contact_padding">
+					<a href="https://www.linkedin.com/in/barath-naravula-loganathan" target="_blank"><i class="fab fa-linkedin" style="font-size:3em; color:#0077B5"></i></a>	
+					&nbsp;
+					<a href="https://github.com/barathnl" target="_blank"><i class="fab fa-github-square" style="font-size:3em; color:black"></i></a>
+					&nbsp;
+					<a href="https://www.facebook.com/barath.naravula.loganathan" target="_blank"><i class="fab fa-facebook-square" style="font-size:3em; color:#3b5998"></i></a>
+				</div>
+
+			  </h4>
+		  </div> 		  
+		  
+        </div>
+      </div>
+    </section>
+	
+	<section id="reg" style="background:#12191c;padding:5px">
+      <div class="container">
+        <div class="row" style="height:inherit;">
+			<span style="color:#ffffff"><i class="far fa-registered"></i> Designed by Barath Naravula Loganathan	</span>	  
+        </div>
+      </div>
+    </section>
+  </div>
+
+      <!-- Placed at the end of the document so the pages load faster -->
+	 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+     <!-- Latest compiled and minified JavaScript -->
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	 <script src="./js/resumeScript.js"></script>
+	 <script src="./js/typed.js"></script>	 
+</body>
+</html>

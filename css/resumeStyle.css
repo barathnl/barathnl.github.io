@@ -1,0 +1,290 @@
+
+
+/*------ Overall Style-------*/
+body{
+    padding-top: 0px;
+}
+#main-content{
+  padding: 0px;
+  margin-top: 0px;
+}
+.gradient_bg {
+    background: #D3D3D3; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffffff, #F5F5F5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #F5F5F5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #F5F5F5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #F5F5F5); /* Standard syntax (must be last) */
+}
+.fa-hand-point-right{
+	color: #004b91;
+}
+.row{
+  margin: 0px;
+}
+hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+p{
+  margin: 0;
+}
+section{
+  padding-top:45px;
+  padding-bottom: 30px;
+}
+.profile_img{
+  opacity: 0.9;  
+}
+.typerwriter_text{
+  padding:10px 0px 10px 0px;
+  color: #C39B56;
+  font-weight:bold;  
+}
+.typerwriter_text > h3{
+  margin:0px;    
+}
+.btn{
+	margin-top:30px;
+	color: #ffffff;
+    background-color: #C39B56;
+    border-color: #C39B56;
+}
+.btn:visited, .btn:active ,.btn:hover{	
+	color: #ffffff;
+    background-color: #C39B56;
+    border-color: #C39B56;
+}
+.img-thumbnail{
+  border: 1px solid #d3d3d3;
+  -webkit-box-shadow: 0 1px 6px rgba(254, 254, 254, 0.8);
+  box-shadow: 0 1px 6px rgba(254, 254, 254, 0.8);
+}
+.card-img{
+  padding:0px;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  background-color: #FDFEFE;	
+}
+.card-title{
+	padding:10px 0px 0px 0px;
+	text-align:center;	
+}
+
+.modal-video{
+	padding:0px;
+}
+.modal-footer{
+	text-align:left;
+}
+
+.contact_padding{
+	padding:10px;
+}
+.page-header{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #caa669;
+  border-bottom: 2px solid #caa669;
+  text-align:center;
+}
+.progress {
+    background-image: -webkit-linear-gradient(top,#ebebeb 0,#ffffff 100%);
+    background-image: -o-linear-gradient(top,#ebebeb 0,#ffffff 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#ebebeb),to(#ffffff));
+    background-image: linear-gradient(to bottom,#ebebeb 0,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#ffffffff', GradientType=0);
+    background-repeat: repeat-x;
+}
+/*-------------Box-----------------*/
+.box{
+  margin-bottom: 10px;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  background-color: #FDFEFE;
+  padding: 10px;
+  -webkit-box-shadow: 0 1px 6px rgba(254, 254, 254, 0.8);
+  box-shadow: 0 1px 10px rgba(254, 254, 254, 1);
+}
+/*---------Time line style--------*/
+
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 2px;
+  background-color: #D3D3D3;
+  left: 25px;
+  margin-right: -1.5px;
+}
+
+.timeline > li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li > .timeline-panel {
+  width: calc( 100% - 75px );
+  float: right;
+  background-color: #FDFEFE;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 15px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(254, 254, 254, 0.8);
+  box-shadow: 0 1px 6px rgba(254, 254, 254, 0.8);
+}
+
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  left: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-right: 15px solid #ccc;
+  border-left: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  left: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-right: 14px solid #fff;
+  border-left: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 0px;
+  margin-right: -25px;
+  background-color: #ffffff;
+  z-index: 100;  
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.timeline-badge.primary {
+  background-color: #2e6da4 !important;
+}
+
+.timeline-title{
+	margin-top:0px;
+}
+
+.timeline > li > .timeline-panel > .timeline-body {
+  padding-top: 5px;
+}
+
+.timeline-group{
+  width:15%;
+  background-color: #FDFEFE;
+  border: 1.5px solid #d3d3d3;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 6px rgba(254, 254, 254, 0.8);
+  box-shadow: 0 1px 6px rgba(254, 254, 254, 0.8);
+  text-align: center;
+}
+/*------------blockquote----------*/
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #666;
+
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+
+  /*Borders - (Optional)*/
+  border-left-style: solid;
+  border-left-width: 15px;
+  border-right-style: solid;
+  border-right-width: 2px;    
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+  
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+blockquote a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #c76c0c;
+}
+
+blockquote a:hover{
+ color: #666;
+}
+
+blockquote em{
+  font-style: italic;
+}
+
+  /*Default Color Palette*/
+blockquote.default{ 
+  border-left-color: #656d77;
+  border-right-color: #434a53;  
+}
+span.Cdefault{
+  color:#434a53;
+}
+/*-------------------------------*/
